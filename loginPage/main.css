@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(74, 74, 240);
+    animation: arkaplan 10s infinite alternate;
+}
+
+.log {
+    position: relative;
+    align-items: center;
+    background-color: red;
+    width: 280px;
+    height: 290px;
+    left: 200px;
+    top: 200px;
+    background-color: rgb(36, 36, 70);
+    border-radius: 8px;
+    align-items: flex-end;
+    transition: all 0.5s;
+}
+
+.log:hover {
+    width: 300px;
+    height: 310px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    position: relative;
+    padding-top: 2px;
+    left: 40px;
+    top: 30px;
+    border: 2px solid rgb(75, 75, 90);
+    border-radius: 8px;
+    inset-block: fill;
+}
+
+input::placeholder {
+    font-style: normal;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200px;
+    font-stretch: ultra-condensed;
+    color: black;
+    font-family: sans-serif;
+    font-size-adjust: inherit;
+}
+
+input:hover {
+    width: 210px;
+}
+
+button {
+    position: absolute;
+    align-items: center;
+    top: 200px;
+    left: 45px;
+    width: 200px;
+    height: 40px;
+    border-radius: 16px;
+    color: white;
+    background-color: black;
+    border: 5px solid;
+    transition: width 0.2s ease;
+}
+
+button:hover {
+    width: 220px;
+    color: black;
+    background-color: white;
+    animation: neon 10s infinite;
+}
+
+button::shadow {
+    color: red;
+}
+
+@keyframes neon {
+    0% {
+        border-color: #FFFF00;
+    }
+    5% {
+        border-color: #FFFF33;
+    }
+    10% {
+        border-color: #F2EA02;
+    }
+    15% {
+        border-color: #E6FB04;
+    }
+    20% {
+        border-color: #FF6600;
+    }
+    25% {
+        border-color: #FF3300;
+    }
+    30% {
+        border-color: #FD1C03;
+    }
+    35% {
+        border-color: #FF0000;
+    }
+    40% {
+        border-color: #33FF00;
+    }
+    45% {
+        border-color: #00FF66;
+    }
+    50% {
+        border-color: #00FF33;
+    }
+    55% {
+        border-color: #00FF00;
+    }
+    60% {
+        border-color: #00FFFF;
+    }
+    65% {
+        border-color: #099FFF;
+    }
+    70% {
+        border-color: #0062FF;
+    }
+    75% {
+        border-color: #0033FF;
+    }
+    80% {
+        border-color: #FF00FF;
+    }
+    85% {
+        border-color: #FF00CC;
+    }
+    90% {
+        border-color: #FF0099;
+    }
+    10% {
+        border-color: #CC00FF;
+    }
+}
+
+@keyframes arkaplan {
+    0% {
+        background-color: #FFFF00;
+    }
+    5% {
+        background-color: #FFFF33;
+    }
+    10% {
+        background-color: #F2EA02;
+    }
+    15% {
+        background-color: #E6FB04;
+    }
+    20% {
+        background-color: #FF6600;
+    }
+    25% {
+        background-color: #FF3300;
+    }
+    30% {
+        background-color: #FD1C03;
+    }
+    35% {
+        background-color: #FF0000;
+    }
+    40% {
+        background-color: #33FF00;
+    }
+    45% {
+        background-color: #00FF66;
+    }
+    50% {
+        background-color: #00FF33;
+    }
+    55% {
+        background-color: #00FF00;
+    }
+    60% {
+        background-color: #00FFFF;
+    }
+    65% {
+        background-color: #099FFF;
+    }
+    70% {
+        background-color: #0062FF;
+    }
+    75% {
+        background-color: #0033FF;
+    }
+    80% {
+        background-color: #FF00FF;
+    }
+    85% {
+        background-color: #FF00CC;
+    }
+    90% {
+        background-color: #FF0099;
+    }
+    10% {
+        background-color: #CC00FF;
+    }
+}
